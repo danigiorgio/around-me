@@ -3,7 +3,7 @@ import apiKey from '../config.js';
 const Yelp = {
   search(term, location, sortBy) {
     return fetch(
-      `https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}&radius=5000`,
+      `https://around-cors.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}&radius=5000`,
       {
         headers: {
           Authorization: `Bearer ${apiKey}`,
