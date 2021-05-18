@@ -1,4 +1,4 @@
-.BusinessList {
+.business-list {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 1280px) {
-  .BusinessList {
+  .business-list {
     padding: 0 3rem;
   }
 }

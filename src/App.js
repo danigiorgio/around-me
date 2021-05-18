@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './styles/main.css';
 
 import BusinessList from './components/BusinessList/BusinessList';
 import SearchBar from './components/SearchBar/SearchBar';
@@ -20,7 +20,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="container">
         <h1>Around Me</h1>
         <div className="description">
           <h2>

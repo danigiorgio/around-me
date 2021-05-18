@@ -80,11 +80,11 @@ class SearchBar extends React.Component {
 
   render() {
     return (
-      <div className="SearchBar">
-        <div className="SearchBar-sort-options">
+      <div className="searchbar">
+        <div className="searchbar-sort-options">
           <ul>{this.renderSortByOptions()}</ul>
         </div>
-        <div className="SearchBar-fields">
+        <div className="searchbar-fields">
           <input
             onKeyPress={this.handleKeyPress}
             onChange={this.handleTermChange}
@@ -98,7 +98,7 @@ class SearchBar extends React.Component {
         </div>
         <div
           onClick={this.handleSearch}
-          className="SearchBar-submit"
+          className="searchbar-submit"
           id="search-button"
         >
           <button>Show Me</button>

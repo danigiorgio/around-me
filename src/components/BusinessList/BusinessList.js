@@ -7,7 +7,7 @@ import './BusinessList.css';
 class BusinessList extends React.Component {
   render() {
     return (
-      <div className="BusinessList">
+      <div className="business-list">
         {this.props.businesses.map((business) => {
           return <Business business={business} key={business.id} />;
         })}{' '}
