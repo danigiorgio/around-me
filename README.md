@@ -78,7 +78,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 <!-- CONTACT -->
-#  Contact
+# ✉️ Contact
 
 Daniela Giorgio - [@web](https://danielagiorgio.com)
 
