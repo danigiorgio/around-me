@@ -46,7 +46,7 @@
    ```sh
    yarn | npm install
    ```
-5. Create a file called .env.local similar to .env.example and enter your Api Key
+5. Create a file called .env.local similar to .env.example and enter your API Key
    ```sh
    REACT_APP_API_KEY= 'ENTER YOUR APIKEY'
    ```
@@ -78,7 +78,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 <!-- CONTACT -->
-# 🎆 Contact
+#  Contact
 
 Daniela Giorgio - [@web](https://danielagiorgio.com)
 
