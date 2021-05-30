@@ -1,19 +1,23 @@
-import React from 'react';
-
-import Business from '../Business/Business';
-
 import './BusinessList.css';
 
-class BusinessList extends React.Component {
-  render() {
-    return (
-      <div className="business-list">
-        {this.props.businesses.map((business) => {
-          return <Business business={business} key={business.id} />;
-        })}{' '}
-      </div>
-    );
-  }
-}
+import React from 'react';
 
-export default BusinessList;
+import Business from '../BusinessListItem/BusinessListItem';
+
+export default function BusinessList({
+  businesses,
+  sortedBusinesses,
+  searchSort,
+}) {
+  return (
+    <main className="business-list">
+      {searchSort === 'best_match'
+        ? businesses?.map((business) => {
+            return <Business business={business} key={business.id} />;
+          })
+        : sortedBusinesses?.map((business) => {
+            return <Business business={business} key={business.id} />;
+          })}
+    </main>
+  );
+}
