@@ -3,20 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.13.1",
-    "react-places-autocomplete": "^7.3.0",
-    "react-scripts": "^3.4.1",
+    "lint-staged": "^11.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "react-loading": "^2.0.3",
+    "react-rating": "^2.0.5",
+    "react-scripts": "4.0.3",
+    "sweetalert2": "^11.0.12",
+    "typeface-inter": "^3.18.1",
     "whatwg-fetch": "^2.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "format": "prettier --write \"**/*.{js,json,md}\"",
+    "lint": "yarn eslint . --ext .js",
+    "lint:fix": "yarn eslint . --ext .js, --fix"
   },
   "devDependencies": {
     "autoprefixer": "^9.1.5",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
     "husky": "^4.2.5",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1"
@@ -25,6 +39,14 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
+  },
+  "lint-staged": {
+    "*.{css,js,jsx,json,md,mdx,ts,tsx}": [
+      "prettier --write"
+    ],
+    "*.js": [
+      "eslint --fix"
+    ]
   },
   "browserslist": {
     "production": [

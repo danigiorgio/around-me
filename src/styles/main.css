@@ -2,6 +2,8 @@
 
 html {
   font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @media only screen and (max-width: 560px) {
@@ -11,7 +13,7 @@ html {
 }
 
 body {
-  background: url('../images/bg.png');
+  background: url('../assets/images/bg.png');
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;
@@ -19,42 +21,4 @@ body {
 
 .container {
   font-family: 'Inter', sans-serif;
-}
-
-.image-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  overflow: hidden;
-  background: #000;
-}
-
-.image-container img {
-  width: 100%;
-}
-
-input:focus {
-  outline: 2px solid #bfd4b6;
-}
-
-h1 {
-  padding: 0.66rem 0;
-  text-align: center;
-  font-size: 2.8rem;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-h2 {
-  padding: 0.66rem 0;
-  text-align: center;
-  font-size: 1.8rem;
-  color: #fff;
-}
-
-@media (min-width: 1100px) {
-  .description {
-    margin: 0 auto;
-    width: 50%;
-  }
 }
