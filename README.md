@@ -8,7 +8,7 @@
 </p>
 
 ![](./src/assets/images/img1.png)
-![](./src/assets/img.png)
+![](./src/assets/images/img.png)
 
 # 👩‍💻 [Demo](https://around-me.vercel.app/)
 
