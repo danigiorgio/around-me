@@ -7,8 +7,8 @@
  A React app that uses the Yelp API to find interesting things to do in a certain location.</a>  
 </p>
 
-![](./src/images/img1.png)
-![](./src/images/img.png)
+![](./src/assets/images/img1.png)
+![](./src/assets/img.png)
 
 # 👩‍💻 [Demo](https://around-me.vercel.app/)
 
