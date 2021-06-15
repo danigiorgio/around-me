@@ -20,6 +20,8 @@
 
 ### Prerequisites
 
+You need to install [Node.js](https://nodejs.org/en/download/). Then you may choose between:
+
 * npm 
   ```sh
   npm i npm@latest -g
