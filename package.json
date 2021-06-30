@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "autoprefixer": "^10.2.6",
     "lint-staged": "^11.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -11,8 +12,7 @@
     "react-rating": "^2.0.5",
     "react-scripts": "4.0.3",
     "sweetalert2": "^11.0.12",
-    "typeface-inter": "^3.18.1",
-    "whatwg-fetch": "^2.0.3"
+    "typeface-inter": "^3.18.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,7 +23,6 @@
     "lint:fix": "yarn eslint . --ext .js, --fix"
   },
   "devDependencies": {
-    "autoprefixer": "^9.1.5",
     "eslint": "^7.27.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
