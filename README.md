@@ -38,7 +38,7 @@ You need to install [Node.js](https://nodejs.org/en/download/). Then you may cho
 1. Get an API Key at [Yelp's developers website](https://www.yelp.com/developers/documentation/v3)
 2. Clone the repo
    ```sh
-   git clone https://github.com/voirs/around-me.git
+   git clone https://github.com/danigiorgio/around-me.git
    ```
 3. Move to the directory
    ```sh
