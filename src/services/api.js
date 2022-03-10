@@ -1,4 +1,5 @@
-const apiKey = `${process.env.REACT_APP_API_KEY}`;
+const YELP_API_KEY = `${process.env.REACT_APP_API_KEY}`;
+const CORS_API_KEY = `${process.env.REACT_APP_CORS_API_KEY}`;
 
 const Yelp = {
   search: async (term, location) => {
@@ -6,7 +7,8 @@ const Yelp = {
       `https://cors.bridged.cc/https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=best_match`,
       {
         headers: {
-          Authorization: `Bearer ${apiKey}`,
+          Authorization: `Bearer ${YELP_API_KEY}`,
+          'x-cors-grida-api-key': CORS_API_KEY,
         },
       }
     );
